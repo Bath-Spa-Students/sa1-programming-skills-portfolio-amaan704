@@ -1,0 +1,14 @@
+#Answer:
+
+#Constructing a dictionary that maps each month to its corresponding total number of days.
+Num_of_days = { 1:31,  2:28, 3:31, 4:30, 5:31,  6:30,  7:31, 8:31, 9:30, 10:31, 11:30, 12:31 }
+
+
+#Asking to enter month number
+month_number = int(input("enter the month number:"))
+
+#looking  the month and printing the numbers of days.
+if 1 <= month_number <= 12:
+    print(f"The number of days in month {month_number} is {Num_of_days[month_number]}")
+else:
+    print("Invalid month number!")
