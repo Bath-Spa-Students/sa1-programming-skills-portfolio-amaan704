@@ -1,0 +1,8 @@
+# give your favorite digit using a variable
+favorite_num = 10
+
+# show a message showing your favorite digit
+message = (f"My favorite number is {favorite_num}.")
+
+# Print the message
+print(message)
